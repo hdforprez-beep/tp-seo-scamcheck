@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Contractor's SEO Scam-Check</title>
+<meta name="description" content="Ten things to check before you pay another marketing company. A free self-check for roofing and home services contractors. Takes about ten minutes.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#0A0A0A">
+<meta property="og:title" content="The Contractor's SEO Scam-Check">
+<meta property="og:description" content="Ten things to check before you pay another marketing company. Takes about ten minutes.">
+<meta property="og:type" content="article">
+<style>
+  :root{
+    --bg:#0A0A0A;
+    --card:#161616;
+    --line:#2A2A2A;
+    --ink:#FFFFFF;
+    --body:#E4E4E4;
+    --muted:#8A8A8A;
+    --accent:#FF7A1A;
+    --accent-dim:rgba(255,122,26,.13);
+    --accent-line:rgba(255,122,26,.34);
+    --radius:12px;
+    --display:"Archivo Black","Helvetica Neue",Helvetica,"Arial Black",Arial,system-ui,sans-serif;
+    --text:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Inter Tight",Helvetica,Arial,sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--body);
+    font:17.5px/1.68 var(--text);
+    -webkit-font-smoothing:antialiased;
+    padding:0 18px 64px;
+  }
+  .wrap{max-width:640px;margin:0 auto;}
+
+  /* ---------- header ---------- */
+  header{padding:40px 0 26px;border-bottom:2px solid var(--accent);margin-bottom:30px;}
+  .eyebrow{
+    font-size:12px;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--accent);font-weight:800;margin:0 0 15px;font-family:var(--display);
+  }
+  h1{
+    font-family:var(--display);
+    font-size:33px;line-height:1.14;letter-spacing:-.01em;
+    color:var(--ink);font-weight:900;margin:0 0 14px;
+    text-transform:uppercase;
+  }
+  .sub{font-size:17px;color:var(--muted);margin:0;line-height:1.55;}
+
+  /* ---------- intro ---------- */
+  .intro p{margin:0 0 16px;}
+  .intro p:last-child{margin-bottom:0;}
+  .lead{color:var(--ink);font-weight:700;font-size:19px;line-height:1.5;}
+
+  .howto{
+    background:var(--accent-dim);border-left:3px solid var(--accent);
+    border-radius:0 var(--radius) var(--radius) 0;
+    padding:15px 17px;margin:26px 0 0;font-size:16px;color:#E4E4E4;
+  }
+  .howto strong{color:var(--accent);}
+
+  /* ---------- section headings ---------- */
+  h2{
+    font-family:var(--display);
+    font-size:12.5px;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--accent);font-weight:800;
+    margin:46px 0 7px;padding-top:28px;border-top:1px solid var(--line);
+  }
+  .h2sub{
+    font-family:var(--display);
+    font-size:24px;line-height:1.24;color:var(--ink);font-weight:900;
+    margin:0 0 20px;text-transform:uppercase;letter-spacing:-.005em;
+  }
+
+  /* ---------- flag cards ---------- */
+  .flag{
+    background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+    padding:17px 18px 16px;margin-bottom:13px;
+  }
+  .flagtop{display:flex;align-items:flex-start;gap:13px;}
+  .flag input[type=checkbox]{
+    appearance:none;-webkit-appearance:none;
+    flex:0 0 auto;width:26px;height:26px;margin:1px 0 0;
+    border:2px solid #4A4A4A;border-radius:6px;background:transparent;
+    cursor:pointer;position:relative;transition:.12s;
+  }
+  .flag input[type=checkbox]:checked{background:var(--accent);border-color:var(--accent);}
+  .flag input[type=checkbox]:checked::after{
+    content:"";position:absolute;left:8px;top:3.5px;
+    width:6px;height:12px;border:solid #0A0A0A;border-width:0 3px 3px 0;
+    transform:rotate(43deg);
+  }
+  .flag input[type=checkbox]:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
+  .flagtitle{
+    font-size:18px;line-height:1.36;font-weight:700;color:var(--ink);
+    margin:0;cursor:pointer;padding-top:2px;
+  }
+  .num{color:var(--accent);font-weight:900;font-family:var(--display);}
+  .flag dl{margin:14px 0 0;padding:14px 0 0;border-top:1px solid var(--line);}
+  .flag dt{
+    font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+    font-weight:800;color:var(--accent);margin:0 0 4px;font-family:var(--display);
+  }
+  .flag dd{margin:0 0 13px;font-size:16.5px;line-height:1.62;}
+  .flag dd:last-of-type{margin-bottom:0;}
+  .flag dd em{color:#E4E4E4;font-style:italic;}
+  .src{font-size:13.5px;color:var(--muted);margin:11px 0 0;line-height:1.5;}
+  a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:2px;}
+
+  /* ---------- score ---------- */
+  .score{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;}
+  .score .row{display:flex;gap:15px;padding:16px 17px;border-bottom:1px solid var(--line);}
+  .score .row:last-child{border-bottom:0;}
+  .tally{
+    flex:0 0 44px;font-size:20px;font-weight:900;color:var(--accent);
+    text-align:center;line-height:1.3;font-family:var(--display);
+  }
+  .verdict{font-size:16px;line-height:1.6;}
+  .verdict b{color:var(--ink);display:block;margin-bottom:3px;font-size:17px;}
+
+  /* ---------- questions ---------- */
+  .qbox{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:8px 18px 18px;}
+  ol.q{margin:0;padding:0 0 0 22px;}
+  ol.q li{margin:16px 0;font-size:17px;color:var(--ink);font-weight:700;line-height:1.5;}
+  ol.q li span{display:block;font-weight:400;color:var(--muted);font-size:15.5px;margin-top:5px;line-height:1.55;}
+  ol.q li::marker{color:var(--accent);font-weight:900;}
+  .copybtn{
+    display:block;width:100%;margin-top:8px;padding:15px;
+    background:var(--accent);color:#0A0A0A;border:0;border-radius:9px;
+    font-size:16px;font-weight:800;cursor:pointer;font-family:var(--text);
+    letter-spacing:.01em;
+  }
+  .copybtn:active{opacity:.82;}
+
+  /* ---------- good ---------- */
+  .good{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:9px 18px 16px;}
+  ul.good-list{margin:0;padding:0;list-style:none;}
+  ul.good-list li{
+    position:relative;padding:12px 0 12px 31px;font-size:16.5px;
+    border-bottom:1px solid var(--line);color:var(--body);line-height:1.6;
+  }
+  ul.good-list li:last-child{border-bottom:0;}
+  ul.good-list li::before{
+    content:"";position:absolute;left:5px;top:19px;
+    width:6px;height:11px;border:solid var(--accent);border-width:0 2.5px 2.5px 0;
+    transform:rotate(43deg);
+  }
+
+  /* ---------- close ---------- */
+  .close{
+    background:var(--card);border:1px solid var(--accent-line);
+    border-radius:var(--radius);padding:26px 20px;margin-top:36px;
+  }
+  .close h3{
+    font-family:var(--display);text-transform:uppercase;
+    margin:0 0 13px;font-size:21px;color:var(--ink);font-weight:900;line-height:1.26;
+  }
+  .close p{margin:0 0 14px;font-size:16.5px;color:var(--body);line-height:1.62;}
+  .handle{
+    display:inline-block;background:var(--accent);
+    border-radius:9px;padding:13px 20px;margin-top:4px;
+    font-weight:800;color:#0A0A0A;text-decoration:none;font-size:17px;
+  }
+
+  /* ---------- sources + footer ---------- */
+  details.sources{margin-top:36px;border-top:1px solid var(--line);padding-top:22px;}
+  details.sources summary{
+    font-family:var(--display);
+    font-size:12.5px;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--accent);font-weight:800;cursor:pointer;
+  }
+  details.sources ul{margin:16px 0 0;padding-left:20px;}
+  details.sources li{font-size:14.5px;margin-bottom:11px;color:var(--muted);line-height:1.55;}
+  footer{margin-top:32px;font-size:13.5px;color:var(--muted);line-height:1.65;}
+  footer .brand{color:var(--accent);font-weight:800;font-family:var(--display);letter-spacing:.06em;text-transform:uppercase;}
+
+  @media (min-width:680px){
+    body{font-size:18px;padding:0 24px 76px;}
+    h1{font-size:42px;}
+    header{padding:54px 0 30px;}
+  }
+  @media print{
+    body{background:#fff;color:#000;font-size:11.5pt;padding:0;}
+    h1,.h2sub,.lead,.verdict b,ol.q li,.close h3,.flagtitle{color:#000;}
+    .flag,.score,.qbox,.good,.close{background:#fff;border:1pt solid #999;break-inside:avoid;}
+    .howto{background:#f4f4f4;color:#000;}
+    .copybtn{display:none;}
+    .handle{color:#000;background:#fff;border:1pt solid #000;}
+    footer,.src,details.sources li,ol.q li span{color:#333;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <p class="eyebrow">The Trust Process</p>
+  <h1>The Contractor's SEO Scam-Check</h1>
+  <p class="sub">Ten things to check before you pay another marketing company. About ten minutes.</p>
+</header>
+
+<section class="intro">
+  <p class="lead">It is hard to tell whether your SEO is actually working, and that is not a knock on you.</p>
+  <p>The work happens where you cannot see it. The report arrives once a month in language nobody explains. And the question you actually care about, whether any of this put a job on the board, is the one it tends to skip.</p>
+  <p>So here is the checklist. Run it with your last invoice and your phone in front of you. You do not need to know anything about SEO to use it.</p>
+
+  <div class="howto">
+    <strong>How to use it:</strong> tap a box for anything that sounds like your setup. Several of these you can settle tonight from your phone. Add them up at the bottom.
+  </div>
+</section>
+
+<h2>Part one</h2>
+<p class="h2sub">The ten red flags</p>
+
+<div class="flag">
+  <div class="flagtop">
+    <input type="checkbox" id="f1">
+    <label class="flagtitle" for="f1"><span class="num">01.</span> They guaranteed you a number one ranking</label>
+  </div>
+  <dl>
+    <dt>Why it matters</dt>
+    <dd>Nobody owns the algorithm, so nobody can promise a position in it. Google puts this in writing on its own page about hiring an SEO: <em>"No one can guarantee a #1 ranking on Google."</em> The same page tells business owners to <em>"Beware of SEOs that claim to guarantee rankings, allege a 'special relationship' with Google, or advertise a 'priority submit' to Google."</em></dd>
+    <dt>What to do</dt>
+    <dd>Ask them to put the guarantee in writing, with the exact keyword and what you get back if it is missed. The answer to that email tells you a lot.</dd>
+    <p class="src">Source: <a href="https://developers.google.com/search/docs/fundamentals/do-i-need-seo" target="_blank" rel="noopener">Google Search Central, Do you need an SEO?</a></p>
+  </dl>
+</div>
+
+<div class="flag">
+  <div class="flagtop">
+    <input type="checkbox" id="f2">
+    <label class="flagtitle" for="f2"><span class="num">02.</span> They cannot name one job they booked you last month</label>
+  </div>
+  <dl>
+    <dt>Why it matters</dt>
+    <dd>Rankings, traffic and impressions are all inputs. What you are actually buying is booked work. If nobody at the agency can point to a single job, then nobody there knows whether the money is working either.</dd>
+    <dt>What to do</dt>
+    <dd>Ask for one example: the job, the call or form it started with, and the date. They should be able to trace it in their own tracking and reporting.</dd>
+  </dl>
+</div>
+
+<div class="flag">
+  <div class="flagtop">
+    <input type="checkbox" id="f3">
+    <label class="flagtitle" for="f3"><span class="num">03.</span> The report never reaches a number that means money</label>
+  </div>
+  <dl>
+    <dt>Why it matters</dt>
+    <dd>Impressions do not sign contracts. A report can be full of traffic and keyword positions and still never connect that activity to a customer. The pattern worth noticing is a graph going up while the phone stays quiet. Google's own guidance says it plainly: <em>"Be careful if a company is secretive or won't clearly explain what they intend to do."</em></dd>
+    <dt>What to do</dt>
+    <dd>Ask for next month's report to open with three lines: calls, form fills, and booked work from unpaid Google results. If that is a problem, ask why.</dd>
+    <p class="src">Source: <a href="https://developers.google.com/search/docs/fundamentals/do-i-need-seo" target="_blank" rel="noopener">Google Search Central, Do you need an SEO?</a></p>
+  </dl>
+</div>
+
+<div class="flag">
+  <div class="flagtop">
+    <input type="checkbox" id="f4">
+    <label class="flagtitle" for="f4"><span class="num">04.</span> You rank for phrases a homeowner would never search</label>
+  </div>
+  <dl>
+    <dt>Why it matters</dt>
+    <dd>A ranking promise gets much easier when the target is a phrase almost nobody searches. You get a screenshot of a number one spot, and the phone never moves, because no customer was looking for that phrase.</dd>
+    <dt>What to do</dt>
+    <dd>Ask which exact keywords you rank for. Then ask for evidence that homeowners actually search them, and that they match work you want to be doing.</dd>
+  </dl>
+</div>
+
+<div class="flag">
+  <div class="flagtop">
+    <input type="checkbox" id="f5">
+    <label class="flagtitle" for="f5"><span class="num">05.</span> Your Google Business Profile lists someone else as the owner</label>
+  </div>
+  <dl>
+    <dt>Why it matters</dt>
+    <dd>That profile is where your map pin, your reviews and a lot of your calls come from. Google's Business Profile third party policies state that a provider must not hold a profile in exchange for payment, and that the business should keep ownership of it.</dd>
+    <dt>What to do</dt>
+    <dd>Open your profile settings and look at People and access, which shows who is an Owner and who is a Manager. If you are listed only as a manager, go to business.google.com/add, find your business, and select Request Access. Google notifies the current owner, who has three days to respond. If your business has no customer-facing address, Google Business Profile support can help instead.</dd>
+    <p class="src">Source: <a href="https://support.google.com/business/answer/4566671?hl=en" target="_blank" rel="noopener">Google Business Profile Help, request ownership</a> and <a href="https://support.google.com/business/answer/7353941?hl=en" target="_blank" rel="noopener">third party policies</a></p>
+  </dl>
+</div>
+
+<div class="flag">
+  <div class="flagtop">
+    <input type="checkbox" id="f6">
+    <label class="flagtitle" for="f6"><span class="num">06.</span> Your domain or your website is registered to them</label>
+  </div>
+  <dl>
+    <dt>Why it matters</dt>
+    <dd>Your domain is the address of your business. Whoever controls the registrar account, meaning the account where the domain is registered, can point it somewhere else. The same goes for a website you cannot download and move: if you leave, the pages and the photos can stay behind.</dd>
+    <dt>What to do</dt>
+    <dd>Look your domain up on <a href="https://lookup.icann.org/" target="_blank" rel="noopener">ICANN Lookup</a>. Privacy services often hide the registrant name, so if it comes back masked, confirm ownership through the registrar account itself, your invoices, and your agreement. Then ask in writing: if I leave, what do I keep.</dd>
+    <dt>Worth knowing</dt>
+    <dd>In Google Search Console, open Settings and then Users and permissions. Google's documentation explains that someone shown as Owner <em>and</em> Verified proved ownership themselves, while Owner on its own is a delegated owner whose access the verified owner can remove. It is worth knowing which one you are.</dd>
+    <p class="src">Source: <a href="https://support.google.com/webmasters/answer/7687615?hl=en" target="_blank" rel="noopener">Google Search Console Help, managing owners and permissions</a></p>
+  </dl>
+</div>
+
+<div class="flag">
+  <div class="flagtop">
+    <input type="checkbox" id="f7">
+    <label class="flagtitle" for="f7"><span class="num">07.</span> Nothing traces a lead back to the work</label>
+  </div>
+  <dl>
+    <dt>Why it matters</dt>
+    <dd>Without tracking, a good month is a story and a bad month is an excuse, and neither one can be checked. It also hides the more expensive problem: leads that came in and never got called back.</dd>
+    <dt>What to do</dt>
+    <dd>Ask how calls and form fills are traced back to the work. If your calls were recorded lawfully, with whatever notice or consent your state requires, listen to a few of them. If they were not, ask for the call logs and what happened to each lead.</dd>
+  </dl>
+</div>
+
+<div class="flag">
+  <div class="flagtop">
+    <input type="checkbox" id="f8">
+    <label class="flagtitle" for="f8"><span class="num">08.</span> The agreement runs long and the exit is buried</label>
+  </div>
+  <dl>
+    <dt>Why it matters</dt>
+    <dd>A long term with no performance benchmark protects their revenue while promising you nothing. The part you can actually check is concrete: how much notice the agreement requires, what form the cancellation has to take, and whether it renews on its own.</dd>
+    <dt>What to do</dt>
+    <dd>Find the cancellation clause tonight and read it. Then send a plain email asking how to cancel. You are measuring how clearly and how quickly they explain it.</dd>
+  </dl>
+</div>
+
+<div class="flag">
+  <div class="flagtop">
+    <input type="checkbox" id="f9">
+    <label class="flagtitle" for="f9"><span class="num">09.</span> Reviews show up from names you do not recognize</label>
+  </div>
+  <dl>
+    <dt>Why it matters</dt>
+    <dd>The Federal Trade Commission's final rule on fake reviews and testimonials took effect on October 21, 2024. It covers buying, selling and spreading reviews that misrepresent the reviewer or their experience, including ones produced by software, and a business can face exposure where it knew or should have known the reviews were false. Those reviews sit under your business name.</dd>
+    <dt>What to do</dt>
+    <dd>Go through the last ninety days of reviews and match each one to a real job. Anything you cannot match, ask about in writing, and keep the reply.</dd>
+    <p class="src">Source: <a href="https://www.ftc.gov/news-events/news/press-releases/2024/08/federal-trade-commission-announces-final-rule-banning-fake-reviews-testimonials" target="_blank" rel="noopener">FTC, final rule banning fake reviews and testimonials</a></p>
+  </dl>
+</div>
+
+<div class="flag">
+  <div class="flagtop">
+    <input type="checkbox" id="f10">
+    <label class="flagtitle" for="f10"><span class="num">10.</span> A stranger cold-called you, with urgency and a brand new acronym</label>
+  </div>
+  <dl>
+    <dt>Why it matters</dt>
+    <dd>Google may call to verify information on a business listing, but it will not cold-call to sell you rankings or take payment for placement. The Federal Trade Commission has taken cases like this to court. In one, a group that sold small businesses search optimization, directory listings and website services through unsolicited calls and past due invoices for things never ordered was ordered to pay more than four and a half million dollars, and permanently banned from selling those services.</dd>
+    <dt>What to do</dt>
+    <dd>Ask them to name one thing specific to roofing: storm season, insurance supplement work, or how a homeowner actually chooses a contractor. A straight answer either describes real experience or admits there is none.</dd>
+    <p class="src">Source: <a href="https://www.ftc.gov/news-events/news/press-releases/2018/12/ftc-obtains-court-order-barring-us-canadian-scammers-marketing-selling-internet-related-services-0" target="_blank" rel="noopener">FTC press release, court order barring scammers marketing internet services</a></p>
+  </dl>
+</div>
+
+<h2>Part two</h2>
+<p class="h2sub">Add up your boxes</p>
+
+<div class="score">
+  <div class="row">
+    <div class="tally">0 to 1</div>
+    <div class="verdict"><b>Nothing jumping out.</b> Keep asking for booked work every month anyway. The reason it stays this way is that somebody is checking.</div>
+  </div>
+  <div class="row">
+    <div class="tally">2 to 3</div>
+    <div class="verdict"><b>Worth a closer look.</b> Usually it is the reporting or the question of who owns what. Start with ownership, because that one gets harder to sort out the longer it sits.</div>
+  </div>
+  <div class="row">
+    <div class="tally">4+</div>
+    <div class="verdict"><b>Worth sorting out properly.</b> Start with what you own and what your agreement says, then work back through the reporting.</div>
+  </div>
+</div>
+
+<div class="howto" style="margin-top:16px;">
+  <strong>Read this as a rough guide.</strong> It is not a diagnosis, and the count is less important than what you found. A single ownership or access problem can matter more than several small ones. Whatever you ticked, work out what you actually own before you tell anyone you are leaving: read your agreement, confirm which assets are yours, and start any transfers through the proper channels while things are still working. If ownership turns out to be disputed, that is a conversation for a lawyer.
+</div>
+
+<h2>Part three</h2>
+<p class="h2sub">Five questions to ask before you pay anybody</p>
+
+<div class="qbox">
+  <ol class="q" id="qlist">
+    <li>Show me one job you booked me last month, and the call it came from.
+      <span>They should be able to trace an example in their own reporting.</span></li>
+    <li>Whose name is on my domain, my website, and my Google Business Profile right now?
+      <span>Get the answer in writing, and check it yourself as well.</span></li>
+    <li>Which number on this report goes up when I make money?
+      <span>If nothing on the report connects to customers, that is worth knowing.</span></li>
+    <li>If I leave in thirty days, what do I keep?
+      <span>Ask before you sign. Get the answer in writing either way.</span></li>
+    <li>Who actually does the work, and have they worked with roofers before?
+      <span>Plenty of work gets passed to a team you will never meet.</span></li>
+  </ol>
+  <button class="copybtn" id="copybtn" type="button">Copy these five questions</button>
+</div>
+
+<h2>Part four</h2>
+<p class="h2sub">What good actually looks like</p>
+
+<div class="good">
+  <ul class="good-list">
+    <li>The report opens with calls, quote requests and booked work, and the SEO detail comes after.</li>
+    <li>You know exactly which assets are yours, and the agreement says so in writing.</li>
+    <li>You get estimates and timeframes, and when they slip you get told why.</li>
+    <li>You can review your own call records, including the ones that went badly.</li>
+    <li>Cancelling is a normal email, and they explain how without being chased.</li>
+    <li>They can explain last month's work in language you would use with a customer.</li>
+    <li>When something did not work, you hear it from them before you notice it yourself.</li>
+  </ul>
+</div>
+
+<div class="close">
+  <h3>If two or more of these landed, it is worth a second set of eyes</h3>
+  <p>Send me a message on Instagram and tell me which numbers you ticked. I will look at your setup and tell you what I would check first, in plain English.</p>
+  <p>No pitch. If what you have is working, I will tell you that too, and you can get back to work.</p>
+  <a class="handle" href="https://instagram.com/thetrustprocess" target="_blank" rel="noopener">@thetrustprocess</a>
+</div>
+
+<details class="sources">
+  <summary>Sources</summary>
+  <ul>
+    <li>Google Search Central, <em>Do you need an SEO?</em> (ranking guarantees, warning signs, and where to report a deceptive provider). Google's page also states: "To file a complaint, visit the FTC website to file a complaint online or call 1-877-FTC-HELP." <a href="https://developers.google.com/search/docs/fundamentals/do-i-need-seo" target="_blank" rel="noopener">developers.google.com</a></li>
+    <li>Google Business Profile Help, requesting ownership of a profile someone else manages. <a href="https://support.google.com/business/answer/4566671?hl=en" target="_blank" rel="noopener">support.google.com</a></li>
+    <li>Google Business Profile Help, third party policies (a provider may not hold a profile in exchange for payment). <a href="https://support.google.com/business/answer/7353941?hl=en" target="_blank" rel="noopener">support.google.com</a></li>
+    <li>Google Search Console Help, managing owners and permissions (verified owner compared with delegated owner). <a href="https://support.google.com/webmasters/answer/7687615?hl=en" target="_blank" rel="noopener">support.google.com</a></li>
+    <li>Federal Trade Commission, final rule banning fake reviews and testimonials, effective October 21, 2024. <a href="https://www.ftc.gov/news-events/news/press-releases/2024/08/federal-trade-commission-announces-final-rule-banning-fake-reviews-testimonials" target="_blank" rel="noopener">ftc.gov</a></li>
+    <li>Federal Trade Commission, court order barring marketers of internet related services sold to small businesses through unsolicited calls and invoices for services never ordered. <a href="https://www.ftc.gov/news-events/news/press-releases/2018/12/ftc-obtains-court-order-barring-us-canadian-scammers-marketing-selling-internet-related-services-0" target="_blank" rel="noopener">ftc.gov</a></li>
+    <li>ICANN Lookup, for checking the registrar and available registration data for a domain. <a href="https://lookup.icann.org/" target="_blank" rel="noopener">lookup.icann.org</a></li>
+  </ul>
+</details>
+
+<footer>
+  <p><span class="brand">The Trust Process</span><br>
+  Built for roofing and home services contractors who have been burned once and would rather not repeat it.</p>
+  <p>General information based on the public sources listed above. It is not legal advice, and it is not a statement about any particular company. If ownership of your website, domain or accounts is disputed, talk to a lawyer.</p>
+</footer>
+
+</div>
+
+<script>
+(function(){
+  var btn = document.getElementById('copybtn');
+  if (!btn) return;
+  btn.addEventListener('click', function(){
+    var items = document.querySelectorAll('#qlist li');
+    var lines = [];
+    for (var i = 0; i < items.length; i++) {
+      var clone = items[i].cloneNode(true);
+      var note = clone.querySelector('span');
+      if (note) { note.parentNode.removeChild(note); }
+      lines.push((i + 1) + '. ' + clone.textContent.replace(/\s+/g, ' ').trim());
+    }
+    var text = 'Five questions to ask before paying a marketing company:\n\n' + lines.join('\n\n');
+    var done = function(){
+      var original = btn.textContent;
+      btn.textContent = 'Copied';
+      setTimeout(function(){ btn.textContent = original; }, 1800);
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done, function(){ fallback(text, done); });
+    } else {
+      fallback(text, done);
+    }
+  });
+  function fallback(text, done){
+    try {
+      var ta = document.createElement('textarea');
+      ta.value = text;
+      ta.setAttribute('readonly', '');
+      ta.style.position = 'absolute';
+      ta.style.left = '-9999px';
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand('copy');
+      document.body.removeChild(ta);
+      done();
+    } catch (e) {
+      btn.textContent = 'Select the questions above to copy';
+    }
+  }
+})();
+</script>
+</body>
+</html>
